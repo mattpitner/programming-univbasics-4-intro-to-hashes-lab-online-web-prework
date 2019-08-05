@@ -47,7 +47,9 @@ def update_counting_hash(hash, key)
   if hash [key] == nil 
     hash [key] = 1
   elseif 
-    hash[key] += 1 
+    p key
+    p hash[key]
+    hash [key] += 1 
   end 
   return hash
 end
